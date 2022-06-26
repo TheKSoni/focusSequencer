@@ -5,7 +5,7 @@ plugin for focus sequencing.
 In case your site is not compatible for ADA due to improper focus shifting on page. 
 And it is getting harder as you have many dynamic elements on page then this plugin can fix the focus sequence issue for you.
 
-Solution: you need to define the element selectors in the sequence which you want to shift focus. thats it. plugin will take care about focus after that. 
+Solution: you need to define the element selectors in the sequence which you want to shift focus. thats it. plugin will take care about focus after that. It will skip elements which are not visible on the page. 
 
 syntax:  
 $.fn.focusSequencer(["selector1", "selector2", "selector n"]);  
